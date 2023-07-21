@@ -1,22 +1,7 @@
-.attribution { 
-    font-size: 11px;
-    
-    position: fixed;    
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, 0)
-}
-.attribution a {
-
-    color: hsl(228, 45%, 49%);
-}
-
 html {
     background-color: hsl(212, 45%, 89%);
 
-    font-family: "Outfit", sans-serif;
-
-    
+    font-family: Outfit, sans-serif;
 }
 
 body {
@@ -45,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
@@ -54,4 +39,15 @@ p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+}
+
+.attribution { 
+    position: fixed;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.attribution a {
+    color: hsl(228, 45%, 49%);
+    text-decoration: none;
 }
