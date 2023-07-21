@@ -1,7 +1,7 @@
 .attribution { 
     font-size: 11px;
     
-    position: fixed;    
+    position: static;    
     top: 97%;
     left: 50%;
     transform: translate(-50%, 0);
