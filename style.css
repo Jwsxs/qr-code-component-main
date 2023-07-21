@@ -1,10 +1,14 @@
 .attribution { 
     font-size: 11px;
     
-    position: static;    
-    top: 97%;
+    position: fixed;    
+    top: 90%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0)
+}
+.attribution a {
+
+    color: hsl(228, 45%, 49%);
 }
 
 html {
@@ -17,7 +21,6 @@ html {
 
 body {
     font-size: 15px;
-    
 }
 
 .content {
